@@ -1,4 +1,5 @@
-Writing PID to tmp/pids/thin.pid
+Exiting!
+Writing PID to /Users/vincent/project/ruby-self-training-demos/web-server-thin-demo/pids/thin.pid
 Using rack adapter
 Thin web server (v1.6.3 codename Protein Powder)
 Maximum connections set to 1024
