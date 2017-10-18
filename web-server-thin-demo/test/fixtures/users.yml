@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  dept_id: 1
+  email: MyString
 
 two:
   name: MyString
-  dept_id: 1
+  email: MyString
