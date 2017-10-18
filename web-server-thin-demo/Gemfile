@@ -6,13 +6,13 @@ git_source(:github) do |repo_name|
 end
 
 # TODO: thin web server
-# gem 'thin'
+gem 'thin'
 # TODO: 如果要使用 Action cable，必须添加这个 gem
 gem 'faye-websocket'
 
 # TODO: Use Puma as the app server
 # 这是 rails 生成的时候默认的服务器，如果想更换，只需要注释掉这个 gem 即可
-# gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
