@@ -1,0 +1,5 @@
+{
+  "name": "web-server-puma-demo",
+  "private": true,
+  "dependencies": {}
+}
