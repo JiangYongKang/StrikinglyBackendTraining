@@ -1,3 +1,4 @@
+# puts "Read the configuration file ..."
 # The directory to operate out of.
 #
 # The default is the current directory.
@@ -114,6 +115,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Workers do not work on JRuby or Windows (both of which do not support
 # processes).
 #
+# workers ENV.fetch("WEB_CONCURRENCY") { 2 }
 workers ENV.fetch("WEB_CONCURRENCY") { 2 }
 
 # TODO: worker 引导执行时运行
