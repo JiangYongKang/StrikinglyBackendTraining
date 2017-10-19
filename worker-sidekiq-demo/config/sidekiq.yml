@@ -1,0 +1,15 @@
+:concurrency: 5
+:pidfile: /Users/vincent/project/ruby-self-training-demos/worker-sidekiq-demo/tmp/pids/sidekiq.pid
+
+:queues:
+    - default
+    - queue_a
+    - queue_b
+    - queue_c
+
+development:
+  :concurrency: 5
+staging:
+  :concurrency: 10
+production:
+  :concurrency: 20
