@@ -1,0 +1,13 @@
+{
+  "name": "yarn-quick-start-demo",
+  "version": "1.0.0",
+  "description": "yarn first use",
+  "main": "index.js",
+  "author": "vincent",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
