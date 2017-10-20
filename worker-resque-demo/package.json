@@ -1,0 +1,5 @@
+{
+  "name": "worker-resque-demo",
+  "private": true,
+  "dependencies": {}
+}
