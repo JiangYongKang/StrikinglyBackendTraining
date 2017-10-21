@@ -31,3 +31,5 @@ Maximum connections set to 1024  # 最大连接数
 Listening on localhost:4567, CTRL+C to stop # 监听端口
 ```
 访问 [localhost:4567](localhost:4567)
+
+[GitHub](https://github.com/sinatra/sinatra) [官方文档](http://www.sinatrarb.com/intro-zh.html)
