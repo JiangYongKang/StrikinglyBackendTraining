@@ -1,0 +1,12 @@
+GEM
+  specs:
+    rack (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+
+BUNDLED WITH
+   1.16.0.pre.3
