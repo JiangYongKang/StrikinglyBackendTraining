@@ -1,3 +1,18 @@
 # Ruby rack
-Ruby Rack 是一个接口，用于 Ruby Web 应用与应用服务器之间的交互，如图所示：
-最左边的 User Agent 就是浏览器等客户端，它发起 HTTP 请求；中间的 Rack Serve r是应用服务器，它响应 HTTP 请求，并调用我们的 Rack 应用；最右边是我们的应用程序——它可能是一个 Rails 或者 Sinatra 应用。Rack 服务器和 Rack 应用程序之间通过 Rack 接口交互。
+```shell
+$ tree
+.
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── config.ru           # 通过 config.ru 配置启动应用
+├── rack_basic.rb       # rack 基本使用
+├── rack_middleware.rb  # 使用中间件
+├── rack_middlewares.rb # 使用多个中间件
+├── rack_routes.rb      # 在 rack 中使用路由
+├── rackup_start.rb     # 使用 rackup 启动
+└── show_directory.rb   # 将本地的 home 目录映射到网页上访问
+
+0 directories, 10 files
+
+```
