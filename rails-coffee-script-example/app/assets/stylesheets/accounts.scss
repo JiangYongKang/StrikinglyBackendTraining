@@ -1,0 +1,29 @@
+// Place all the styles related to the accounts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse:collapse;
+  border: 1px solid #EBEEF5;
+  font-size: 14px;
+  color: #606266;
+  td {
+    border: 1px solid #EBEEF5;
+    padding: 12px 6px;
+  }
+}
+
+// 鼠标滑入后的样式
+.out {
+  background-color: #FFFFFF;
+}
+
+// 鼠标滑出的样式
+.over {
+  background-color: #EBEEF5
+}

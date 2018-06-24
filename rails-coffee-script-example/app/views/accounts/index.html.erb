@@ -1,0 +1,28 @@
+<table>
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>NICKNAME</td>
+			<td>EMAIL</td>
+			<td>PHONE</td>
+			<td>PASSWORD</td>
+			<td>STATUS</td>
+			<td>CREATED_AT</td>
+			<td>UPDATED_AT</td>
+		</tr>
+	</thead>
+	<tbody>
+		<% @accounts.each do |account| %>
+			<tr>
+				<td><%= account.id %></td>
+				<td><%= account.nickname %></td>
+				<td><%= account.email %></td>
+				<td><%= account.phone %></td>
+				<td><%= account.password %></td>
+				<td><%= account.status %></td>
+				<td><%= account.created_at %></td>
+				<td><%= account.updated_at %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
