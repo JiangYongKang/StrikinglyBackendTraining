@@ -1,0 +1,13 @@
+redis: &redis
+   redis_server: <%= ENV["REDIS_SERVER"] || '127.0.0.1' %>
+   redis_port: <%= ENV["REDIS_PORT"] || 6379 %>
+   redis_db_num: <%= ENV["REDIS_DB_NUM"] || 0 %>
+
+development:
+  <<: *redis
+
+test:
+  <<: *redis
+
+production:
+  <<: *redis

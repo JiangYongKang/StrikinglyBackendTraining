@@ -1,0 +1,3 @@
+EverySecondSendMessageWorker:
+  cron: '* * * * * *'
+  class: EverySecondSendMessageWorker
